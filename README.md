@@ -42,5 +42,5 @@ Output:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/Sachx001/cpp-practice.git
+git clone https://github.com/SachX001/learning-c-
 
