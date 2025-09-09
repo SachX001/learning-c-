@@ -61,6 +61,25 @@ The program uses basic `if-else` conditions to compare the sides and classify th
 
 💻 This is part of my daily practice to improve problem-solving and C++ skills.
 
+
+## 🚀Factorial Calculator (C++)
+
+This is a simple C++ program that calculates the factorial of a number using a do...while loop.
+
+📜 Description
+
+The program takes an integer input from the user and prints the factorial of that number.
+It continues multiplying until it reaches 1, following the formula:
+N! = N*N(N-1)*(N-2)*(N-3)...1
+
+🛠️ Features
+
+Uses do...while loop to demonstrate iterative logic.
+
+Handles 0! correctly (prints 1).
+
+Simple and beginner-friendly code.
+
   
 ✌️(More folders will be added as I learn new concepts)
 
