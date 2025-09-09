@@ -9,7 +9,7 @@ int main() {
     if(side1 == side2 && side2 == side3) {
         cout << "equilateral" << endl;
     }
-    else if(side1 == side2 || side2 == side1 || side1 == side3) {
+    else if(side1 == side2 || side2 == side3 || side1 == side3) {
         cout << "isosceles" << endl;
     }
     else {
