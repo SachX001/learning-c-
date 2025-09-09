@@ -42,7 +42,7 @@ This is a simple C++ program that takes the lengths of three sides of a triangle
 - **Isosceles** – any two sides are equal  
 - **Scalene** – all sides are different  
 
-## 📌 How It Works
+ 📌 How It Works
 
 The program uses basic `if-else` conditions to compare the sides and classify the triangle
 
