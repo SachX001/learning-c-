@@ -34,8 +34,35 @@ Output:
 - Variables and scope
 - Problem-solving basics
 
+
+## 🚀 Program: TriangleDeterminer.cpp
+This is a simple C++ program that takes the lengths of three sides of a triangle as input and determines whether the triangle is:
+
+- **Equilateral** – all three sides are equal  
+- **Isosceles** – any two sides are equal  
+- **Scalene** – all sides are different  
+
+## 📌 How It Works
+
+The program uses basic `if-else` conditions to compare the sides and classify the triangle
+
+🚀 Usage:
+1. Compile the code:
+   g++ triangle.cpp -o triangle
+
+2.Run the executable:
+ ./triangle
+
+3.Enter three side lengths (float or int):
+ 5 5 8
+
+4.Output:
+ isosceles
+
+💻 This is part of my daily practice to improve problem-solving and C++ skills.
+
   
-- (More folders will be added as I learn new concepts)
+✌️(More folders will be added as I learn new concepts)
 
 
 ## 🚀 How to Run
