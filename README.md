@@ -80,7 +80,28 @@ Handles 0! correctly (prints 1).
 
 Simple and beginner-friendly code.
 
-  
+
+## 🚀 Reverse Array in C++
+
+This is a simple C++ program that reads an array of integers from the user and prints the elements in reverse order.
+
+📖 How It Works
+
+ 1.Takes input N – the number of elements in the array.
+
+ 2.Reads N integers from the user.
+
+ 3.Prints the elements in reverse order, separated by spaces.
+
+ 🖥️ Example
+
+   Input:
+   5
+   2 4 5 6 8
+
+   Output:
+   8 6 5 4 2
+
 ✌️(More folders will be added as I learn new concepts)
 
 
