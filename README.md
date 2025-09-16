@@ -109,23 +109,23 @@ This is a simple C++ program that reads an array of integers from the user and p
 
 A simple C++ program that reads a string of comma-separated numbers from standard input, parses them using `stringstream`, and prints each number on a new line.
 
-## 🚀 Features
+ 🚀 Features
 - Takes input as a **single string** containing numbers separated by commas (e.g., `10,20,30`).
 - Uses `vector<char>` to store characters before converting to a string.
 - Utilizes `stringstream` to separate numbers from commas.
 - Prints each number on its own line.
 
-## 📋 Example
+ 📋 Example
 ### Input:
 10,20,30,40
 
-### Output:
+ Output:
 10
 20
 30
 40
 
-## 🛠️ How It Works
+ 🛠️ How It Works
 1. **Store Input in `vector<char>`**  
    Reads the string character by character and stores it in a `vector<char>`.
 
@@ -135,7 +135,7 @@ A simple C++ program that reads a string of comma-separated numbers from standar
 3. **Parse Numbers with `stringstream`**  
    Extracts each integer from the string and consumes commas in between to prepare for the next number.
 
-## 🎯 Learning Highlights
+ 🎯 Learning Highlights
 
  1.Working with vector<char>
 
@@ -145,7 +145,7 @@ A simple C++ program that reads a string of comma-separated numbers from standar
 
  4.Handling separators (commas) while extracting integers
 
-## 📂 Use Cases
+ 📂 Use Cases
 
  1.Parsing CSV-like data.
 
@@ -153,7 +153,7 @@ A simple C++ program that reads a string of comma-separated numbers from standar
 
  3.Learning and practicing stringstream in C++.
 
-## 🧠 Author's Note
+ 🧠 Author's Note
 
  This program was built as part of a learning journey into C++ input parsing and data handling. It's a small but powerful example of how to handle custom input formats in a clean and efficient way.
 
