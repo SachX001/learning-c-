@@ -105,6 +105,60 @@ This is a simple C++ program that reads an array of integers from the user and p
 ✌️(More folders will be added as I learn new concepts)
 
 
+## 🚀 Comma-Separated Number Parser
+
+A simple C++ program that reads a string of comma-separated numbers from standard input, parses them using `stringstream`, and prints each number on a new line.
+
+## 🚀 Features
+- Takes input as a **single string** containing numbers separated by commas (e.g., `10,20,30`).
+- Uses `vector<char>` to store characters before converting to a string.
+- Utilizes `stringstream` to separate numbers from commas.
+- Prints each number on its own line.
+
+## 📋 Example
+### Input:
+10,20,30,40
+
+### Output:
+10
+20
+30
+40
+
+## 🛠️ How It Works
+1. **Store Input in `vector<char>`**  
+   Reads the string character by character and stores it in a `vector<char>`.
+
+2. **Convert Vector to String**  
+   Reconstructs a string from the `vector<char>` so that it can be processed by `stringstream`.
+
+3. **Parse Numbers with `stringstream`**  
+   Extracts each integer from the string and consumes commas in between to prepare for the next number.
+
+## 🎯 Learning Highlights
+
+ 1.Working with vector<char>
+
+ 2.Converting vector<char> to std::string
+
+ 3.Parsing formatted input using stringstream
+
+ 4.Handling separators (commas) while extracting integers
+
+## 📂 Use Cases
+
+ 1.Parsing CSV-like data.
+
+ 2.Handling custom-formatted input in competitive programming.
+
+ 3.Learning and practicing stringstream in C++.
+
+## 🧠 Author's Note
+
+ This program was built as part of a learning journey into C++ input parsing and data handling. It's a small but powerful example of how to handle custom input formats in a clean and efficient way.
+
+
+
 ## 🚀 How to Run
 
 1. Clone this repository:
