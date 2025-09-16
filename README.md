@@ -102,7 +102,7 @@ This is a simple C++ program that reads an array of integers from the user and p
    Output:
    8 6 5 4 2
 
-✌️(More folders will be added as I learn new concepts)
+
 
 
 ## 🚀 Comma-Separated Number Parser
@@ -157,6 +157,8 @@ A simple C++ program that reads a string of comma-separated numbers from standar
 
    This program was built as part of a learning journey into C++ input parsing and data handling. It's a small but powerful example of how to handle custom input formats in a clean and efficient way.
 
+
+## ✌️(More folders will be added as I learn new concepts)
 
 
 ## 🚀 How to Run
