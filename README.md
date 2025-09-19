@@ -164,7 +164,7 @@ A simple C++ program that reads a string of comma-separated numbers from standar
 This project demonstrates how to work with dynamic 2D arrays in C++ using vector<vector<int>>.
 It is based on the classic "Variable Sized Arrays" problem (HackerRank).
 
-## 🚀 Problem Description
+ 🚀 Problem Description
 
 We are given:
 n → number of arrays
@@ -176,14 +176,14 @@ Then for each of the q queries:
 Read two integers row and col.
 Print the element at matrix[row][col].
 
-## 🖥️ Code Overview
+ 🖥️ Code Overview
 
 Uses vector<vector<int>> to store a flexible number of arrays.
 Dynamically resizes rows based on input.
 Accesses elements using matrix[row][col].
 Outputs the result for each query.
 
-## 🧠 Key Learnings
+ 🧠 Key Learnings
 
 How to use vector<vector<int>> for dynamic 2D arrays.
 How to read variable-length arrays in C++.
