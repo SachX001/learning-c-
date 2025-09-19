@@ -158,6 +158,44 @@ A simple C++ program that reads a string of comma-separated numbers from standar
    This program was built as part of a learning journey into C++ input parsing and data handling. It's a small but powerful example of how to handle custom input formats in a clean and efficient way.
 
 
+
+## 🚀 Variable-Sized Arrays in C++
+
+This project demonstrates how to work with dynamic 2D arrays in C++ using vector<vector<int>>.
+It is based on the classic "Variable Sized Arrays" problem (HackerRank).
+
+
+## 🚀 Problem Description
+
+We are given:
+n → number of arrays
+q → number of queries
+For each of the n arrays:
+Read p (the size of the array).
+Read p integers and store them.
+Then for each of the q queries:
+Read two integers row and col.
+Print the element at matrix[row][col].
+
+
+## 🖥️ Code Overview
+
+Uses vector<vector<int>> to store a flexible number of arrays.
+Dynamically resizes rows based on input.
+Accesses elements using matrix[row][col].
+Outputs the result for each query.
+
+
+
+## 🧠 Key Learnings
+
+How to use vector<vector<int>> for dynamic 2D arrays.
+
+How to read variable-length arrays in C++.
+
+How to access and print values based on queries.
+
+
 ## ✌️(More folders will be added as I learn new concepts)
 
 
