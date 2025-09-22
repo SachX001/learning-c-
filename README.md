@@ -190,6 +190,29 @@ How to read variable-length arrays in C++.
 How to access and print values based on queries.
 
 
+##  🚀 Student Class Program
+
+This program demonstrates basic **OOP concepts in C++** using a `Student` class.  
+It uses **private data members** for encapsulation and initializes them using a **constructor**.  
+The program then prints the student details using a public member function.
+
+ 🖥️ Code Overview
+
+- **Class:** `Student`
+- **🔒 Private Members:** `age`, `firstName`, `lastName`, `standard`
+- **🌐 Public Methods:**  
+  - **Constructor:** Initializes student data  
+  - **🖨️ printDetails():** Prints all the student information  
+
+🧠 Concepts Used
+
+- 🏷️ Classes & Objects  
+- 🔑 Access Specifiers (`private:` / `public:`)  
+- 🏗️ Constructor  
+- 🏹 `this->` pointer for initialization  
+- 🛡️ Encapsulation
+
+
 ## ✌️(More folders will be added as I learn new concepts)
 
 
