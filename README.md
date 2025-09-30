@@ -214,23 +214,37 @@ The program then prints the student details using a public member function.
 
 
 ## 🎓 Student Score Comparison
+
 -Compare students’ total scores and find out how many have equal or higher total scores than the first student.
 
+
 📝 Problem
+
 -Given n students with scores in 5 subjects, determine how many students have a total score greater than or equal to the first student's total, excluding the first student.
 
+
 Input
+
 -An integer n — number of students
+
 -n lines each containing 5 integers — scores of each student in 5 subjects
 
+
 ⚙️ How It Works
+
 -Read the number of students and their scores
+
 -Calculate the total score of the first student
+
 -Compare each remaining student’s total score with the first student’s total
+
 -Count how many students meet or exceed the first student's total
+
 -Print the result
 
+
 🛠 Technologies
+
 -C++
 -STL vector
 
