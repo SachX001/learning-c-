@@ -250,9 +250,9 @@ The program then prints the student details using a public member function.
  -STL vector
 
 
- # 🚀Ceil Division of Product (`ceil_division.cpp`)
-
-## 🎓 Problem Overview
+## 🚀Ceil Division of Product (`ceil_division.cpp`)
+ 
+# 🎓 Problem Overview
 
 Given multiple test cases, each with two integers `n` and `x`, we need to compute:
 
@@ -268,9 +268,7 @@ In simpler terms, we:
 
 This is a common pattern in competitive programming when calculating the **minimum number of groups / batches / units** needed, where each group can handle `4` units at most.
 
----
-
-## 🚀Input Format
+# 🚀Input Format
 
 - The first line contains an integer `t` — the number of test cases.
 - Each of the next `t` lines contains two integers `n` and `x`.
