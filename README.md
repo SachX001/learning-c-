@@ -237,6 +237,54 @@ This is a common pattern in competitive programming when calculating the **minim
 - Each of the next `t` lines contains two integers `n` and `x`.
 
 
+
+## 🎓 Student Score Comparison (C++)
+
+A clean and efficient **C++ program** that reads marks of multiple students, calculates their **total scores**, and determines **how many students scored higher than the first student**.
+This project focuses on strengthening **C++ fundamentals** using classes and vectors.
+
+  ### 🧠 Problem Description
+
+  - You are given scores of **N students**
+  - Each student has **exactly 5 subject marks**
+  - The program:
+    1. Calculates the **total score** of each student
+    2. Compares all totals with the **first student’s total**
+    3. Outputs how many students scored **strictly higher** than student 0
+
+  ### 🛠️ Concepts Used
+
+  ✅ Classes & Objects  
+  ✅ 2D and 1D `vector` usage  
+  ✅ Nested loops  
+  ✅ Input / Output handling  
+  ✅ Basic comparison logic  
+
+  ### 📥 Input Format
+    N
+    a1 a2 a3 a4 a5
+    b1 b2 b3 b4 b5
+    ...
+
+  ### 🧱 Code Breakdown
+
+   #### 🔹 `Student` Class
+
+ **Private Members**
+ - `scores` → Stores marks of all students (2D vector)
+ - `total` → Stores total score of each student
+ - `n` → Number of students
+ - `sum` → Temporary sum for each student
+ - `num` → Count of students scoring higher than student 0
+
+ **Public Methods**
+ - `input()` → Reads input and stores scores
+ - `calculateTotalScore()` →
+   - Computes total scores
+   - Compares with first student
+   - Prints the final count
+
+
 ## ✌️(More folders will be added as I learn new concepts)
 
 
