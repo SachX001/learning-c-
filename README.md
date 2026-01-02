@@ -316,14 +316,15 @@ This project focuses on strengthening core C++ fundamentals, logical reasoning, 
 
    The input is read using stringstream, which keeps reading integers until a non-integer character is encountered.
 
-   ✅ Correct Input Example
-    5 1 5 2 5 3 5 4 x
-   ❌ Incorrect Input Example
-    5 1 5 2 5 3 5 4
+    ✅ Correct Input Example:
+     5 1 5 2 5 3 5 4 x
+     
+    ❌ Incorrect Input Example:
+     5 1 5 2 5 3 5 4
 
    Without a non-integer at the end, input parsing may not terminate as expected.
 
-  ###🧱 Code Breakdown
+  ### 🧱 Code Breakdown
   🔹 Solution Class
 
    Private Logic
