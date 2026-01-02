@@ -285,7 +285,66 @@ This project focuses on strengthening **C++ fundamentals** using classes and vec
    - Prints the final count
 
 
-## ✌️(More folders will be added as I learn new concepts)
+## 🔁 N Repeated Element in Size 2N Array (C++)
+
+A beginner-friendly C++ program that identifies the element repeated N times in an array of size 2N.
+This project focuses on strengthening core C++ fundamentals, logical reasoning, and debugging skills without relying on advanced STL containers.
+
+ ### 🧠 Problem Description
+
+  You are given an integer array nums of size 2N
+  Exactly one element appears N times
+  All other elements appear only once
+
+  The program:
+  Counts the frequency of each element
+  Determines the maximum frequency
+  Outputs the element repeated N times
+
+### 🛠️ Concepts Used
+
+ ✅ Classes & Objects
+ ✅ vector usage
+ ✅ Nested loops
+ ✅ Frequency counting logic
+ ✅ Input handling using stringstream
+ ✅ Brute-force problem solving
+
+ ### 📥 Input Format (Local Testing)
+
+   ⚠️ Important: This program is meant for local execution (VS Code / terminal).
+
+   The input is read using stringstream, which keeps reading integers until a non-integer character is encountered.
+
+   ✅ Correct Input Example
+    5 1 5 2 5 3 5 4 x
+   ❌ Incorrect Input Example
+    5 1 5 2 5 3 5 4
+
+   Without a non-integer at the end, input parsing may not terminate as expected.
+
+  ###🧱 Code Breakdown
+  🔹 Solution Class
+
+   Private Logic
+    Uses a count vector to store frequency of each element
+    Iterates through the array to count occurrences manually
+   
+   Public Method
+    repeatedNTimes(vector<int>& nums) →
+    Counts how many times each element appears
+    Finds the maximum frequency
+    Returns the element corresponding to that frequency
+
+  ### ⏱️ Time & Space Complexity
+
+  Time Complexity: O(n²) (nested loops)
+  Space Complexity: O(n) (frequency storage)
+
+  This approach prioritizes clarity and fundamentals over optimization.
+
+  
+ ## ✌️(More folders will be added as I learn new concepts)
 
 
 ## 🚀 How to Run
