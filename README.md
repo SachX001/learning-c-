@@ -304,10 +304,15 @@ This project focuses on strengthening core C++ fundamentals, logical reasoning, 
 ### 🛠️ Concepts Used
 
  ✅ Classes & Objects
+ 
  ✅ vector usage
+ 
  ✅ Nested loops
+ 
  ✅ Frequency counting logic
+ 
  ✅ Input handling using stringstream
+ 
  ✅ Brute-force problem solving
 
  ### 📥 Input Format (Local Testing)
@@ -327,11 +332,11 @@ This project focuses on strengthening core C++ fundamentals, logical reasoning, 
   ### 🧱 Code Breakdown
   🔹 Solution Class
 
-   Private Logic
+   Private Logic:
     Uses a count vector to store frequency of each element
     Iterates through the array to count occurrences manually
    
-   Public Method
+   Public Method:
     repeatedNTimes(vector<int>& nums) →
     Counts how many times each element appears
     Finds the maximum frequency
@@ -339,10 +344,11 @@ This project focuses on strengthening core C++ fundamentals, logical reasoning, 
 
   ### ⏱️ Time & Space Complexity
 
-  Time Complexity: O(n²) (nested loops)
-  Space Complexity: O(n) (frequency storage)
+   Time Complexity: O(n²) (nested loops)
+  
+   Space Complexity: O(n) (frequency storage)
 
-  This approach prioritizes clarity and fundamentals over optimization.
+   This approach prioritizes clarity and fundamentals over optimization.
 
   
  ## ✌️(More folders will be added as I learn new concepts)
