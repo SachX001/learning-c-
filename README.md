@@ -350,7 +350,70 @@ This project focuses on strengthening core C++ fundamentals, logical reasoning, 
 
    This approach prioritizes clarity and fundamentals over optimization.
 
+
+ ## 🔁 Palindrome Number Checker (C++)
+  A simple and beginner-friendly C++ program that checks whether a given integer is a palindrome.
   
+  This project focuses on strengthening core C++ fundamentals, including strings, vectors, loops, and logical comparison — without using advanced STL algorithms.
+
+### 🧠 Problem Description
+You are given an integer x
+
+A number is considered a palindrome if it reads the same forward and backward
+
+ #### The program:
+  Converts the integer into a string
+  
+  Stores the original order of characters
+  
+  Stores the reversed order of characters
+  
+  Compares both sequences
+  
+  Prints whether the number is or is not a palindrome
+
+### 🛠️ Concepts Used
+✅ Classes & Objects
+
+✅ stringstream (integer → string conversion)
+
+✅ vector<char> usage
+
+✅ Loops and indexing
+
+✅ Manual string reversal
+
+✅ Direct vector comparison
+
+### 📥 Input Format
+    The program takes a single integer as input:
+     121
+
+### 📤 Output Format
+The program prints the result directly to the console.
+
+    Example Output:
+    is palindrome
+
+### 🧱 Code Breakdown
+🔹 Solution Class
+
+   Method
+   isPalindrome(int x)
+   
+   Converts the integer to a string using stringstream
+   
+   Stores digits in a vector (number)
+   
+   Stores digits in reverse order (reversed_number)
+   
+   Compares both vectors using ==
+   
+   Prints the result
+   
+   This approach avoids STL shortcuts and helps in understanding how palindrome logic works internally.
+
+   
  ## ✌️(More folders will be added as I learn new concepts)
 
 
