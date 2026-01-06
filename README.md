@@ -413,7 +413,188 @@ The program prints the result directly to the console.
    
    This approach avoids STL shortcuts and helps in understanding how palindrome logic works internally.
 
-   
+
+  Perfect — **professional, structured, but still the same recognizable theme** you like.
+Clean headings, light emojis, no cringe, GitHub-ready.
+
+---
+
+## 🏛️ Roman Numeral to Integer Conversion (C++)
+
+### 📌 Overview
+
+This project implements a **Roman numeral to integer converter** in C++ using a **brute-force, fundamentals-driven approach**.
+
+Instead of relying on STL maps or one-line tricks, the solution explicitly models:
+
+* Roman symbol → value mapping
+* Additive numeral logic
+* Subtractive numeral corrections
+
+The focus is **clarity, correctness, and understanding**, not shortest code.
+
+---
+
+### 🎯 Problem Statement
+
+Given a Roman numeral string `s`, return its integer value.
+
+Roman numerals follow these rules:
+
+* Symbols usually **add** their values
+* If a **smaller value appears before a larger one**, it is **subtracted**
+
+#### Examples
+
+```
+III      → 3
+IV       → 4
+IX       → 9
+MCMXCIV  → 1994
+```
+
+---
+
+### 🧠 Design Philosophy
+
+This solution is intentionally split into **two logical passes**:
+
+1. **Additive Pass**
+   Convert each Roman symbol to its integer value and compute the total sum.
+
+2. **Correction Pass**
+   Detect subtractive pairs (`IV`, `IX`, `XL`, `XC`, `CD`, `CM`) and subtract their correction values from the initial sum.
+
+This separation keeps the logic:
+
+* Easy to reason about
+* Easy to debug
+* Aligned with brute-force fundamentals
+
+---
+
+### 🧱 Data Structures Used
+
+#### 🔹 Fixed-Size Arrays (Symbol Mapping)
+
+```cpp
+char Roman_NumberSet[7] = {'I','V','X','L','C','D','M'};
+int Integer_NumberSet[7] = {1,5,10,50,100,500,1000};
+```
+
+These arrays simulate a dictionary-like mapping **without using STL maps**, keeping memory usage minimal and predictable.
+
+---
+
+#### 🔹 Vectors
+
+* `Value_set` → stores integer values corresponding to each Roman character
+* `diff_value` → stores correction values for subtractive pairs
+
+Both vectors remain small (bounded by the input length).
+
+---
+
+### ⚙️ Algorithm Breakdown
+
+#### Step 1: Symbol Conversion
+
+* Iterate through the input string
+* Match each Roman symbol with its numeric value
+* Store values in `Value_set`
+
+#### Step 2: Initial Summation
+
+* Sum all values from `Value_set` into `initial_sum`
+
+#### Step 3: Subtractive Pair Detection
+
+* Scan the string for known subtractive pairs:
+
+  * `IV`, `IX`
+  * `XL`, `XC`
+  * `CD`, `CM`
+* Push corresponding correction values into `diff_value`
+
+#### Step 4: Final Calculation
+
+* Sum all correction values into `diff_sum`
+* Compute result as:
+
+```cpp
+final_value = initial_sum - diff_sum;
+```
+
+---
+
+### 📊 Complexity Analysis
+
+#### ⏱ Time Complexity
+
+* **O(n)**
+  Two linear passes over the input string
+
+#### 🧠 Space Complexity
+
+* **O(n)**
+  Small auxiliary vectors proportional to input length
+
+---
+
+### 🧪 Example Walkthrough
+
+Input:
+
+```
+MCMXCIV
+```
+
+Processing:
+
+```
+Initial sum   = 2216
+Corrections   = 200 + 20 + 2
+Final result  = 1994
+```
+
+Output:
+
+```
+1994
+```
+
+---
+
+### 💡 Why This Approach?
+
+* Avoids abstraction-heavy STL containers
+* Makes Roman numeral rules explicit
+* Reinforces fundamentals of arrays, loops, and conditionals
+* Demonstrates multi-pass problem solving
+
+Despite its simplicity, the solution is **memory efficient** and performs competitively.
+
+---
+
+### ⚠️ Notes
+
+* This solution prioritizes **learning and clarity**
+* It is not the most concise implementation
+* Intended as a stepping stone toward optimized or STL-based solutions
+
+---
+
+### 🏁 Conclusion
+
+This project demonstrates that:
+
+* Complex problems can be solved with simple tools
+* Clear logic often outperforms clever shortcuts
+* Understanding fundamentals leads to better optimization decisions later
+
+A solid, readable, and correct Roman numeral conversion implemented from first principles.
+
+
  ## ✌️(More folders will be added as I learn new concepts)
 
 
